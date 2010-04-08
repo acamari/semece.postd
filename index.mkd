@@ -1,0 +1,7 @@
+# Bienvenido al mundo del software libre.
+
+## Noticias:
+
+* 2009/septiembre/7: Se reescribió esta página en [Markdown][].
+
+  [Markdown]: http://daringfireball.net/projects/markdown/

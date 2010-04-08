@@ -1,0 +1,8 @@
+## Ayuda
+
+Para solicitar ayuda o apoyo al grupo, contáctanos por medio de nuestro canal
+IRC.
+
+También contamos con una [lista de correo][] a la que puedes suscribirte.
+
+  [lista de correo]: http://lista.sentx.net/

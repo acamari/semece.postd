@@ -1,0 +1,44 @@
+## La lista
+
+Temas que debes por lo menos conocer, en un orden completamente arbitrario y
+subjetivo (que puede o no ser útil).
+
+Ésta es también nuestra lista de lecturas recomendadas que supuestamente alguno
+de *SeNTX* ya leyó.
+
+* Busca antes de preguntar.
+* Sentido común *requerido*.
+* Redes: si quieres saber cómo funciona el Internet.
+  * [IP addressing][]
+  * DHCP
+  * DNS
+  * [IPtables][]
+* Sistemas: 
+  * [Programación de shell portable][sh]
+  * [PostgreSQL][]
+  * [OpenBSD][]
+  * [Linux][]
+* Programación:
+  * [Perl][], recomendación: *Learning Perl*
+  * El lenguaje de programación [C][].
+  * [Encodings][]
+* Ortografía:
+  * [RAE][]: Real Academia Española.
+  * [Acentuación][acentos]: 
+
+ [IP addressing]: http://www.3com.com/other/pdfs/infra/corpinfo/en_US/501302.pdf 
+ [IPtables]: http://iptables-tutorial.frozentux.net/iptables-tutorial.html#TCPIPREPETITION
+
+ [sh]: http://www.openbsd.org/cgi-bin/man.cgi?query=sh&apropos=0&sektion=0&manpath=OpenBSD+Current&arch=i386&format=html
+ [PostgreSQL]: http://www.postgres.org
+ [OpenBSD]:  http://www.openbsd.org
+ [Linux]: http://google.com/search?q=linux
+
+ [Perl]: http://learn.perl.org/
+ [C]: http://cm.bell-labs.com/cm/cs/cbook/ 
+ [Encodings]: http://www.joelonsoftware.com/articles/Unicode.html
+ [Python]: http://www.python.org
+ [Ruby]: http://www.ruby-lang.org
+
+ [RAE]: http://rae.es/
+ [acentos]: http://www.dat.etsit.upm.es/~mmonjas/acentos.html"
