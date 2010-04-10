@@ -2,6 +2,7 @@
 
 ## Noticias:
 
+* 2010/abril/10: Nueva web! todos alegrense!
 * 2009/septiembre/7: Se reescribió esta página en [Markdown][].
 
   [Markdown]: http://daringfireball.net/projects/markdown/
