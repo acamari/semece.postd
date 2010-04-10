@@ -1,1 +1,0 @@
-alter juntas, este /juntas no es igual a /juntas/
