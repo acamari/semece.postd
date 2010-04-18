@@ -1,36 +1,6 @@
 ## Proyectos
 
-###Proyectos activos:
-
-#### porquepodemos
-
-Proyecto de migración de los `Laboratorios' de FCFM de .doc (formato propietario
-de Microsoft Office) a LaTeX. Puedes descargar el repositorio desde 
-[repositorio git][porquepodemosgit] también puedes descargar los archivos desde [snapshots de
-sentx][snapshot]
-
- [porquepodemosgit]: http://git.sentx.net/?p=porquepodemos.git;a=summary
- [snapshot]: http://snapshot.sentx.net/
-
-#### anime_rename
-
-Un script muy simple para renombrar archivos (diseñado para renombrar cápitulos
-de anime), interesante para aquellos que estén aprendiendo Perl.  Lo puedes
-encontrar en [anime_rename.git][].
-
- [anime_rename.git]: http://repo.or.cz/w/anime_rename.git
-
-#### Web de SenTX
-
-¡Nuestra web también es un proyecto a discutir!, como se habrán dado cuenta
-nuestra web siempre se la pasa abandonada, así que se ha decidido publicar
-un repositorio [git] </a> donde se podrá ver como 'evoluciona' nuestra página y
-colaborar en ella enviándonos tus diffs a <general@sentx.net> o solicitándonos
-por IRC que se te haga un usuario para push en el branch 'master'.
-
-### Otros proyectos
-
-El código fuente de nuestros otros proyectos lo puedes encontrar en el 
+El código fuente de nuestros proyectos puede encontrarse en el 
 [repositorio][git].
 
  [git]: http://git.sentx.net/
