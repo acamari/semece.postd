@@ -20,11 +20,12 @@ de *SeNTX* ya leyó.
   * [Linux][]
 * Programación:
   * [Perl][], recomendación: *Learning Perl*
-  * El lenguaje de programación [C][].
+  * [El lenguaje de programación C][C].
   * [Encodings][]
-* Ortografía:
-  * [RAE][]: Real Academia Española.
-  * [Acentuación][acentos]: 
+* Español:
+  * [RAE][]: Diccionario de la Real Academia Española.
+  * [Ortografía][] según la RAE.
+  * [Acentuación][acentos].
 
  [IP addressing]: http://www.3com.com/other/pdfs/infra/corpinfo/en_US/501302.pdf 
  [IPtables]: http://iptables-tutorial.frozentux.net/iptables-tutorial.html#TCPIPREPETITION
@@ -41,4 +42,5 @@ de *SeNTX* ya leyó.
  [Ruby]: http://www.ruby-lang.org
 
  [RAE]: http://rae.es/
+ [Ortografía]: http://www.rae.es/rae/gestores/gespub000015.nsf/(voanexos)/arch7E8694F9D6446133C12571640039A189/$FILE/Ortografia.pdf
  [acentos]: http://www.dat.etsit.upm.es/~mmonjas/acentos.html"
