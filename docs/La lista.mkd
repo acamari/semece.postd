@@ -1,46 +1,72 @@
 ## La lista
 
-Temas que debes por lo menos conocer, en un orden completamente arbitrario y
-subjetivo (que puede o no ser útil).
+Frecuentemente nos es preguntado:
 
-Ésta es también nuestra lista de lecturas recomendadas que supuestamente alguno
-de *SeNTX* ya leyó.
+> «Soy un entusiasta de esto del "Software Libre", ¿Qué necesito leer para saber más?»
 
-* Busca antes de preguntar.
-* Sentido común *requerido*.
-* Redes: si quieres saber cómo funciona el Internet.
-  * [IP addressing][]
-  * DHCP
-  * DNS
-  * [IPtables][]
-* Sistemas: 
-  * [Programación de shell portable][sh]
-  * [PostgreSQL][]
-  * [OpenBSD][]
-  * [Linux][]
+_SeNTX_ en su altruista afán pone a su disposición la siguiente:
+
+### Lista de estudio:
+* Redes: 
+	* IEEE 802.1X.
+	* Capa 3:
+		* [IP addressing][].
+		* [IPtables][].
+		* [IPsec][].
+	* Capa 5: 
+		* [DNS][prodns].
+		* HTTP.
+* Web:
+	* HTML.
+	* Javascript.
+	* JSON.
+* Sistemas Operativos: 
+	* [Programación de shell portable][sh].
+	* [OpenBSD][].
+	* [Linux][].
+* Bases de datos:
+	* [PostgreSQL][].
 * Programación:
-  * [Perl][], recomendación: *Learning Perl*
-  * [El lenguaje de programación C][C].
-  * [Encodings][]
+	* [Perl][]:
+		* [Learning Perl][Perl-learning].
+		* [Programming Perl][Perl-programming].
+		* [Practical mod_perl][Perl-modperl].
+	* [El lenguaje de programación C][C].
+	* [Python][].
+	* [Encodings][].
 * Español:
-  * [RAE][]: Diccionario de la Real Academia Española.
-  * [Ortografía][] según la RAE.
-  * [Acentuación][acentos].
+	* [RAE][]: Diccionario de la Real Academia Española.
+	* [Ortografía][] según la RAE.
+	* [Acentuación][acentos].
 
+Ésta no propone ser un desglose exhaustivo de enlaces, sino más bien un punto de
+partida, para futuras consultas en _Los Internets_.
+
+Ampliamente recomendamos leer la página en la [Wikipedia][] de cada uno de los
+temas anteriormente propuestos, y si se desea conocimiento más _profundo_
+entonces seguir los enlaces dispuestos.
+
+ [IPsec]: http://www.openbsd.org/cgi-bin/man.cgi?query=ipsec&apropos=0&sektion=0&manpath=OpenBSD+Current&arch=i386&format=html
  [IP addressing]: http://www.3com.com/other/pdfs/infra/corpinfo/en_US/501302.pdf 
  [IPtables]: http://iptables-tutorial.frozentux.net/iptables-tutorial.html#TCPIPREPETITION
+ [prodns]: http://apress.com/book/view/9781590594940
 
  [sh]: http://www.openbsd.org/cgi-bin/man.cgi?query=sh&apropos=0&sektion=0&manpath=OpenBSD+Current&arch=i386&format=html
- [PostgreSQL]: http://www.postgres.org
+ [PostgreSQL]: http://www.postgres.org/
  [OpenBSD]:  http://www.openbsd.org
  [Linux]: http://google.com/search?q=linux
 
  [Perl]: http://learn.perl.org/
+ [Perl-learning]: http://oreilly.com/catalog/9780596520113
+ [Perl-programming]: http://oreilly.com/catalog/9780596000271/
+ [Perl-modperl]: http://www.modperlbook.org/
  [C]: http://cm.bell-labs.com/cm/cs/cbook/ 
  [Encodings]: http://www.joelonsoftware.com/articles/Unicode.html
- [Python]: http://www.python.org
- [Ruby]: http://www.ruby-lang.org
+ [Python]: http://www.python.org/
+ [Ruby]: http://www.ruby-lang.org/
 
  [RAE]: http://rae.es/
  [Ortografía]: http://www.rae.es/rae/gestores/gespub000015.nsf/(voanexos)/arch7E8694F9D6446133C12571640039A189/$FILE/Ortografia.pdf
  [acentos]: http://www.dat.etsit.upm.es/~mmonjas/acentos.html"
+
+ [Wikipedia]: http://en.wikipedia.org/
