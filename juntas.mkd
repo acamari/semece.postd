@@ -2,4 +2,4 @@
 
 Sólo por el canal de [irc][].
 
- [irc]: /post/irc
+ [irc]: /post/contacto
