@@ -43,7 +43,7 @@ _SeNTX_ en su altruista afán pone a su disposición la siguiente:
 partida, para futuras consultas en _Los Internets_.
 
 Ampliamente recomendamos leer la página en la [Wikipedia][] de cada uno de los
-temas anteriormente propuestos, y si se desea conocimiento más _profundo_
+temas anteriormente propuestos, y si se desea conocimiento más profundo
 entonces seguir los enlaces dispuestos.
 
  [IPsec]: http://www.openbsd.org/cgi-bin/man.cgi?query=ipsec&apropos=0&sektion=0&manpath=OpenBSD+Current&arch=i386&format=html
