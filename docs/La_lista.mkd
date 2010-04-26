@@ -21,12 +21,15 @@ _SeNTX_ en su altruista afán pone a su disposición la siguiente:
 	* Javascript.
 	* JSON.
 * Sistemas Operativos: 
-	* [Programación de shell portable][sh].
 	* [OpenBSD][].
 	* [Linux][].
 * Bases de datos:
 	* [PostgreSQL][].
 * Programación:
+	* [Programación en BASH][bash], cuando termine de leer éste olvide todos
+	las cualidades específicas de GNU bash (y no-POSIX) y lees el siguiente
+	documento 'Programación de shell portable'.
+	* [Programación de shell portable][sh], 
 	* [Perl][]:
 		* [Learning Perl][Perl-learning].
 		* [Programming Perl][Perl-programming].
@@ -51,6 +54,7 @@ entonces seguir los enlaces dispuestos.
  [IPtables]: http://iptables-tutorial.frozentux.net/iptables-tutorial.html#TCPIPREPETITION
  [prodns]: http://apress.com/book/view/9781590594940
 
+ [bash]: http://www.gnu.org/software/bash/manual/bashref.html
  [sh]: http://www.openbsd.org/cgi-bin/man.cgi?query=sh&apropos=0&sektion=0&manpath=OpenBSD+Current&arch=i386&format=html
  [PostgreSQL]: http://www.postgres.org/
  [OpenBSD]:  http://www.openbsd.org
