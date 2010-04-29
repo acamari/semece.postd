@@ -37,6 +37,8 @@ _SeNTX_ en su altruista afán pone a su disposición la siguiente:
 	* [El lenguaje de programación C][C].
 	* [Python][].
 	* [Encodings][].
+* Documentación:
+	* [LaTeX][].
 * Español:
 	* [RAE][]: Diccionario de la Real Academia Española.
 	* [Ortografía][] según la RAE.
@@ -69,6 +71,7 @@ entonces seguir los enlaces dispuestos.
  [Python]: http://www.python.org/
  [Ruby]: http://www.ruby-lang.org/
 
+ [LaTeX]: http://es.wikipedia.org/wiki/LaTeX
  [RAE]: http://rae.es/
  [Ortografía]: http://www.rae.es/rae/gestores/gespub000015.nsf/(voanexos)/arch7E8694F9D6446133C12571640039A189/$FILE/Ortografia.pdf
  [acentos]: http://www.dat.etsit.upm.es/~mmonjas/acentos.html"
