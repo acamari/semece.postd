@@ -2,51 +2,51 @@
 
 #### Primeros intentos
 
-Hace unos meses (años) empece a escribir un programa
-para manejar nuestras entradas en este preciso dominio,
-con el fin de ilustrarnos a nosotros mismos y de paso al
-que se atravesara.
+Hace unos meses (años) empecé a escribir un programa para manejar nuestras 
+entradas en este preciso dominio, con el fin de ilustrarnos a nosotros 
+mismos y de paso al que se atravesara.
 
-Pero, como la mayoria de mis proyectos, resulto infructuoso ya
-que me distraje buscando distracciones para olvidar que no debia
-distraerme de mis deberes para con la escuela ( *GLORIOSA* [FCFM][].)
+Pero, como la mayoría de mis proyectos, resulto infructuoso ya que me 
+distraje buscando distracciones para olvidar que no debía distraerme de 
+mis deberes para con la escuela ( *GLORIOSA* [FCFM][].)
 
 [FCFM]: http://www.fcfm.uanl.mx/
 
-Despues de cerca de 5 intentos fallidos de comenzar el código, en uno
-de nuestros, espero ya infames, hackatones [Joel][] decidio que era 
-hora de hacerlo en [Python][]. Así nacio la 4ta, y última, versión de Postzilla
+Después de cerca de 5 intentos fallidos de comenzar el código, en uno
+de nuestros, espero ya infames, hackatones [Joel][miembros] decidio que era 
+hora de hacerlo en [Python][]. Así nació la 4ta, y última, versión de Postzilla
 (Programada enteramente por Joel, pero arrogantemente nombrada por mi.)
 
-[Joel]: http://sentx.net/post/miembros
+[miembros]: http://sentx.net/post/miembros
 [Python]: http://www.python.org/about/
 
-Al <del>ver</del> <add>leer de</add> esta aplicación, 00z y yo nos negamos 
-a publicarla como el motor de nuestro amado SeNTX, ya que se oponia a los 
-principios de austeridad y amor hacia la consistencia (a veces confundido 
-como odio hacia los usuarios) con sus 3MB de JavaScript para un editor web, 
-que nosotros considerabamos completamente inecesario. De ahi que se presentara 
-una nueva actitud en 00z y en mi con respecto a la programación de este sitio, 
-pero mientras yo estaba distraido haciendo un script para <del>leer 4chan más
-agusto,</del> <add>practicar JavaScript en Chrome,</add> 00z continuo con su
-proyecto llamado Semecé, muy parecido a los primeros bocetos de postzilla.
+Al <del>ver</del> <add>leer de</add> esta aplicación, [00z][miembros] y yo nos
+negamos a publicarla como el motor de nuestro amado SeNTX, ya que se oponía a los 
+principios de austeridad y amor hacia la consistencia (a veces confundido como 
+odio hacia los usuarios) con sus 3MB (MiB para los [ubunteros][lol]) de JavaScript para 
+un editor web, que nosotros considerabamos completamente inecesario. De ahi que 
+se presentara una nueva actitud en 00z y en mi con respecto a la programación de 
+este sitio, pero mientras yo estaba distraido haciendo un script para <del>leer 
+4chan más agusto,</del> <add>practicar JavaScript en Chrome,</add> 00z continuo 
+con su proyecto llamado Semecé, muy parecido a los primeros bocetos de postzilla.
 
+[lol]: http://www.neowin.net/news/ubuntu-implements-units-policy-will-switch-to-base-10-units-in-future-release
 
 #### Nuevo camino
 
 Alimentado por el odio hacia un lenguaje tan inconsistente como Python, 00z
-decidio terminar el hiato que habia marcado a Semecé como solo otro de 
-nuestros proyectos muertos programando en un par de noches lo que nos tomo
+decidió terminar el hiato, que había marcado a Semecé como solo otro de 
+nuestros proyectos muertos, programando en un par de noches lo que nos tomo
 varios meses (de nuevo, años) empezar.
 
-Al ver su ánimo decidi que seria bueno darle una mano a aquel que habia
+Al ver su ánimo decidí que sería bueno darle una mano a aquel que había
 progresado tanto en algo que yo solo observe hasta que me di cuenta que 
-no podia intimidarlo para que se programara solo, pero despues de una 
+no podia intimidarlo para que se programara solo, pero después de una 
 batalla con mi [servidor HTTP][httpd] que duró lo que ahora recuerdo como dias me
-di cuenta que el programa, escrito para [mod_perl 1.0][mperl], no funcionaria en
-mi [debian][] con su mod_perl 2.0, despues de analizar mis opciones, decidi
-que no habia nada que pudiera hacer sin gastar más tiempo preprando mi
-sistema al que pasaria modificando el código.
+di cuenta que el programa, escrito para [mod_perl 1.0][mperl], no funcionaría en
+mi [debian][] con su mod_perl 2.0, después de analizar mis opciones, decidí
+que no había nada que pudiera hacer sin gastar más tiempo preprando mi
+sistema al que pasaría modificando el código.
 
 [httpd]: http://apache.org/
 [debian]: http://debian.org/
