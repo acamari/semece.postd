@@ -2,6 +2,7 @@
 
 ## Noticias:
 
+* 2010/abril/30: Volvimos, más contenido en los próximos dias
 * 2010/abril/10: ¡Nueva web, todos alégrense!
 * 2009/septiembre/7: Se reescribió esta página en [Markdown][].
 
