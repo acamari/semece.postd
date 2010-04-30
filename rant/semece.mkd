@@ -1,4 +1,4 @@
-## Postzilla a muerto, larga vida a Semecé
+## Postzilla a muerto: larga vida a Semecé
 
 #### Primeros intentos
 
@@ -6,7 +6,7 @@ Hace unos meses (años) empecé a escribir un programa para manejar nuestras
 entradas en este preciso dominio, con el fin de ilustrarnos a nosotros 
 mismos y de paso al que se atravesara.
 
-Pero, como la mayoría de mis proyectos, resulto infructuoso ya que me 
+Pero, como la mayoría de mis proyectos, resultó infructuoso ya que me 
 distraje buscando distracciones para olvidar que no debía distraerme de 
 mis deberes para con la escuela ( *GLORIOSA* [FCFM][].)
 
@@ -52,14 +52,14 @@ sistema al que pasaría modificando el código.
 [debian]: http://debian.org/
 [mperl]: http://perl.apache.org/
 
-A continuación decidi hacer lo que hago mejor, imaginar que podria hacer este
+A continuación decidi hacer lo que hago mejor, imaginar que podría hacer este
 nuevo sistema y empezar a llenar el TO-DO del proyecto con la intención de
 agregar estas funcionalidades en cuanto tuviera una plataforma de desarrollo
 adecuada.
 
 #### Haciendo algo
 
-Después que recorde de la existencia de las máquinas virtuales, decidi poner
+Después que recordé de la existencia de las máquinas virtuales, decidí poner
 una con el sistema de nuestro buen servidor, [OpenBSD][] con el buen Apache 
 httpd 1.3, ahora solo queda terminar esa lista.
 
