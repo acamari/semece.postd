@@ -1,6 +1,6 @@
 ## Postzilla a muerto, larga vida a Semecé
 
-## Primeros intentos
+#### Primeros intentos
 
 Hace unos meses (años) empece a escribir un programa
 para manejar nuestras entradas en este preciso dominio,
@@ -11,14 +11,15 @@ Pero, como la mayoria de mis proyectos, resulto infructuoso ya
 que me distraje buscando distracciones para olvidar que no debia
 distraerme de mis deberes para con la escuela ( *GLORIOSA* [FCFM][].)
 
-	[FCFM]: http://www.fcfm.uanl.mx/
+[FCFM]: http://www.fcfm.uanl.mx/
 
 Despues de cerca de 5 intentos fallidos de comenzar el código, en uno
 de nuestros, espero ya infames, hackatones [Joel][] decidio que era 
 hora de hacerlo en [Python][]. Así nacio la 4ta, y última, versión de Postzilla
 (Programada enteramente por Joel, pero arrogantemente nombrada por mi.)
 
-	[Python]: http://www.python.org/about/
+[Joel]: http://sentx.net/post/miembros
+[Python]: http://www.python.org/about/
 
 Al <del>ver</del> <add>leer de</add> esta aplicación, 00z y yo nos negamos 
 a publicarla como el motor de nuestro amado SeNTX, ya que se oponia a los 
@@ -27,7 +28,7 @@ como odio hacia los usuarios) con sus 3MB de JavaScript para un editor web,
 que nosotros considerabamos completamente inecesario. De ahi que se presentara 
 una nueva actitud en 00z y en mi con respecto a la programación de este sitio, 
 pero mientras yo estaba distraido haciendo un script para <del>leer 4chan más
-agusto</del> <add>practicar JavaScript en Chrome</add> 00z continuo con su
+agusto,</del> <add>practicar JavaScript en Chrome,</add> 00z continuo con su
 proyecto llamado Semecé, muy parecido a los primeros bocetos de postzilla.
 
 
@@ -47,9 +48,9 @@ mi [debian][] con su mod_perl 2.0, despues de analizar mis opciones, decidi
 que no habia nada que pudiera hacer sin gastar más tiempo preprando mi
 sistema al que pasaria modificando el código.
 
-	[httpd]: http://apache.org/
-	[debian]: http://debian.org/
-	[mperl]: http://perl.apache.org/
+[httpd]: http://apache.org/
+[debian]: http://debian.org/
+[mperl]: http://perl.apache.org/
 
 A continuación decidi hacer lo que hago mejor, imaginar que podria hacer este
 nuevo sistema y empezar a llenar el TO-DO del proyecto con la intención de
@@ -62,6 +63,6 @@ Después que recorde de la existencia de las máquinas virtuales, decidi poner
 una con el sistema de nuestro buen servidor, [OpenBSD][] con el buen Apache 
 httpd 1.3, ahora solo queda terminar esa lista.
 
-	[OpenBSD]: http://openbsd.org/
+[OpenBSD]: http://openbsd.org/
 
 _León_
