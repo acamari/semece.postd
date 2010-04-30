@@ -1,0 +1,67 @@
+## Postzilla a muerto, larga vida a Semecé
+
+## Primeros intentos
+
+Hace unos meses (años) empece a escribir un programa
+para manejar nuestras entradas en este preciso dominio,
+con el fin de ilustrarnos a nosotros mismos y de paso al
+que se atravesara.
+
+Pero, como la mayoria de mis proyectos, resulto infructuoso ya
+que me distraje buscando distracciones para olvidar que no debia
+distraerme de mis deberes para con la escuela ( *GLORIOSA* [FCFM][].)
+
+	[FCFM]: http://www.fcfm.uanl.mx/
+
+Despues de cerca de 5 intentos fallidos de comenzar el código, en uno
+de nuestros, espero ya infames, hackatones [Joel][] decidio que era 
+hora de hacerlo en [Python][]. Así nacio la 4ta, y última, versión de Postzilla
+(Programada enteramente por Joel, pero arrogantemente nombrada por mi.)
+
+	[Python]: http://www.python.org/about/
+
+Al <del>ver</del> <add>leer de</add> esta aplicación, 00z y yo nos negamos 
+a publicarla como el motor de nuestro amado SeNTX, ya que se oponia a los 
+principios de austeridad y amor hacia la consistencia (a veces confundido 
+como odio hacia los usuarios) con sus 3MB de JavaScript para un editor web, 
+que nosotros considerabamos completamente inecesario. De ahi que se presentara 
+una nueva actitud en 00z y en mi con respecto a la programación de este sitio, 
+pero mientras yo estaba distraido haciendo un script para <del>leer 4chan más
+agusto</del> <add>practicar JavaScript en Chrome</add> 00z continuo con su
+proyecto llamado Semecé, muy parecido a los primeros bocetos de postzilla.
+
+
+#### Nuevo camino
+
+Alimentado por el odio hacia un lenguaje tan inconsistente como Python, 00z
+decidio terminar el hiato que habia marcado a Semecé como solo otro de 
+nuestros proyectos muertos programando en un par de noches lo que nos tomo
+varios meses (de nuevo, años) empezar.
+
+Al ver su ánimo decidi que seria bueno darle una mano a aquel que habia
+progresado tanto en algo que yo solo observe hasta que me di cuenta que 
+no podia intimidarlo para que se programara solo, pero despues de una 
+batalla con mi [servidor HTTP][httpd] que duró lo que ahora recuerdo como dias me
+di cuenta que el programa, escrito para [mod_perl 1.0][mperl], no funcionaria en
+mi [debian][] con su mod_perl 2.0, despues de analizar mis opciones, decidi
+que no habia nada que pudiera hacer sin gastar más tiempo preprando mi
+sistema al que pasaria modificando el código.
+
+	[httpd]: http://apache.org/
+	[debian]: http://debian.org/
+	[mperl]: http://perl.apache.org/
+
+A continuación decidi hacer lo que hago mejor, imaginar que podria hacer este
+nuevo sistema y empezar a llenar el TO-DO del proyecto con la intención de
+agregar estas funcionalidades en cuanto tuviera una plataforma de desarrollo
+adecuada.
+
+#### Haciendo algo
+
+Después que recorde de la existencia de las máquinas virtuales, decidi poner
+una con el sistema de nuestro buen servidor, [OpenBSD][] con el buen Apache 
+httpd 1.3, ahora solo queda terminar esa lista.
+
+	[OpenBSD]: http://openbsd.org/
+
+_León_
