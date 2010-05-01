@@ -1,0 +1,5 @@
+You can't create the following directories:
+
+./__static__/
+
+and if you create them you won't be able to see it.
