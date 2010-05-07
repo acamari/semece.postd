@@ -26,9 +26,9 @@ _SeNTX_ en su altruista afán pone a su disposición la siguiente:
 * Bases de datos:
 	* [PostgreSQL][].
 * Programación:
-	* [Programación en BASH][bash], cuando termine de leer éste olvide todos
-	las cualidades específicas de GNU bash (y no-POSIX) y lees el siguiente
-	documento 'Programación de shell portable'.
+	* [Programación en BASH][bash], cuando termine de leer éste olvide todas
+	las cualidades específicas de GNU bash (y no-POSIX) y lea el siguiente
+	documento *Programación de shell portable*.
 	* [Programación de shell portable][sh], 
 	* [Perl][]:
 		* [Learning Perl][Perl-learning].
