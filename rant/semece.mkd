@@ -52,7 +52,7 @@ sistema al que pasaría modificando el código.
 [debian]: http://debian.org/
 [mperl]: http://perl.apache.org/
 
-A continuación decidi hacer lo que hago mejor, imaginar que podría hacer este
+A continuación decidí hacer lo que hago mejor, imaginar que podría hacer este
 nuevo sistema y empezar a llenar el TO-DO del proyecto con la intención de
 agregar estas funcionalidades en cuanto tuviera una plataforma de desarrollo
 adecuada.
