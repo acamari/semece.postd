@@ -2,8 +2,11 @@
 
 ## Noticias:
 
-* 2010/abril/30: Volvimos, más contenido en los próximos dias
-* 2010/abril/10: ¡Nueva web, todos alégrense!
-* 2009/septiembre/7: Se reescribió esta página en [Markdown][].
+* 20100526: Automatización de la dada de alta de repositorios en 
+	[git.sentx.net][git]
+* 20100430: Volvimos, más contenido en los próximos dias
+* 20100410: ¡Nueva web, todos alégrense!
+* 20090907: Se reescribió esta página en [Markdown][].
 
+  [git]: http://git.sentx.net/
   [Markdown]: http://daringfireball.net/projects/markdown/
