@@ -4,4 +4,11 @@ SeNTX, puede ser encontrado vía IRC en el canal:
 
 	#sentx en irc.freenode.net
 
-además disponemos de una lista de correo, pero por el momento está indispuesta.
+Además disponemos de una lista de correo:
+
+	general@sentx.net
+
+Puedes enviar ahí los correos que te gustaría que recibieran todos los miembros
+suscritos de SeNTX; para suscribirte entra a [la lista][Lista].
+
+ [Lista]: http://lista.sentx.net/
