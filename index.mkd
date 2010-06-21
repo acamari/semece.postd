@@ -2,6 +2,7 @@
 
 ## Noticias:
 
+* 20100621: Tenemos tipos MIME, disfrútelos.
 * 20100526: Automatización de la dada de alta de repositorios en 
 	[git.sentx.net][git]
 * 20100430: Volvimos, más contenido en los próximos dias
