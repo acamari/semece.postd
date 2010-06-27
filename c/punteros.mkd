@@ -1,7 +1,7 @@
 ## Punteros en C
 
 Motivado por una respuesta de uno de los maestros de la FCFM al momento de preguntarle
-¿Maestro cuando vamos a ver punteros?  y su respuesta "de punteros tu solo vas a saber el nombre",
+¿Maestro cuando vamos a ver punteros?  y su respuesta *"de punteros tu solo vas a saber el nombre"*,
 trato de explicar un concepto tan fundamental en C, y tan poco o nulamente sabido por los 
 estudiantes que dicen saber programar en C por usar arreglos para manejar
 sus cadenas y los ejemplos de juguete, sin siquiera considerar los manejos
@@ -31,11 +31,11 @@ Entonces al realizar:
 
 
 Al definir v como dirección de memoria (puntero), ¿Como se le asigna un valor a lo que apunta?
-para esto se usa *VARIABLE:
+para esto se usa `*VARIABLE`:
 
   *v  = 1;
 
-con el * se accesa directamente al segmento de memoria al que se apunta.
+con el `*` se accesa directamente al segmento de memoria al que se apunta.
 
 ¿Que sucede si se intenta hacer lo siguiente?
 
@@ -50,7 +50,7 @@ Sin duda compila sin ningún problema, ¿entonces esta bien?... veamos...
   printf("%d", *p1); // imprime el entero al que se apunta.
 
 pero, ¿a que memoria se esta asignando?, nunca se definió entonces ¿por que compilo?
-y ¿como se arregla?, compilo por que p1 tiene una dirección de memoria pueden comprobarlo
+y ¿como se arregla?, compilo por que `p1` tiene una dirección de memoria pueden comprobarlo
 haciendo:
 
   int * p1;  
@@ -62,14 +62,14 @@ El problema es que nuestro programa no tiene permiso a escribir a ese segmento d
 al hacer: *p1 = 1, recibimos un error de segmentación "segmentation fault" y nuestro programa
 termina.
 
-Esto se soluciona reservando la memoria que luego se va a utilizar, para esto se usa "malloc",
+Esto se soluciona reservando la memoria que luego se va a utilizar, para esto se usa `malloc`,
 definido en "stdlib.h", de su man...
 
    void *malloc(size_t size);
         aloja size bytes y regresa un puntero a la memoria alojada. La memoria no es limpiada. Si size es 0, entonces malloc() regresa NULL
         o un puntero único que luego puede ser usado en free().
    
-mas información man malloc.
+mas información `man malloc`.
 
 Arreglando:
 
@@ -83,7 +83,7 @@ Arreglando:
 Por su puesto, toda variable tiene una dirección, y entonces ¿como saberla?...
 
 
-Existe un operador llamado de dirección  "&", un uso mas para el amperson (&& "and logico", & "bitwise and")
+Existe un operador llamado de dirección  `&`, un uso mas para el amperson (&& "and logico", & "bitwise and")
 se usa así:
 
     &variable
@@ -122,4 +122,4 @@ Hasta aquí por el momento, aun faltan 4 secciones mas por definir:
 
 Espero terminar de redactarlas esta semana.
 
-Joel Rivera "joe" <joelriv en gmail.com>
+-- Joel Rivera 	`joe`
