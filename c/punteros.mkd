@@ -1,11 +1,7 @@
 
-## Punteros en C
+<style>#content p{text-indent: 0px;}</style>
 
-<style>
-   #content p{
-    text-indent: 0px;
-   }
-</style>
+## Punteros en C
 
 Motivado por una respuesta de uno de los maestros de la FCFM al momento de preguntarle
 ¿Maestro cuando vamos a ver punteros?  y su respuesta *"de punteros tu solo vas a saber el nombre"*,
@@ -13,7 +9,6 @@ trato de explicar un concepto tan fundamental en C, y tan poco o nulamente sabid
 estudiantes que dicen saber programar en C por usar arreglos para manejar
 sus cadenas y los ejemplos de juguete, sin siquiera considerar los manejos
 de memoria dinámica vía punteros, comencemos...
-
 
 ### Nociones básicas
 
