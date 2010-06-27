@@ -1,33 +1,31 @@
-## Punteros en C
+# Punteros en C
 
 Motivado por una respuesta de uno de los maestros de la FCFM al momento de preguntarle
-¿Maestro cuando vamos a ver punteros?  y su respuesta *"de punteros tu solo vas a saber el nombre"*,
+¿Maestro, cu\ando vamos a ver punteros?  y su respuesta *"de punteros tu solo vas a saber el nombre"*,
 trato de explicar un concepto tan fundamental en C, y tan poco o nulamente sabido por los 
 estudiantes que dicen saber programar en C por usar arreglos para manejar
 sus cadenas y los ejemplos de juguete, sin siquiera considerar los manejos
 de memoria dinámica vía punteros, comencemos...
 
-### Nociones básicas
+## Nociones básicas
 
-¿Que es un puntero?
+###¿Que es un puntero?
+
 Es la dirección en memoria de un segmento en particular de la misma.
 
-¿Como se define un puntero?
+###¿Como se define un puntero?
 
    TIPO * variable;
 
 Lo que se realiza, en una asignación de un numero entero normalmente
 expresado en forma hexadecimal, la diferencia de este entero es que ya se
 tiene noción de ser una dirección en memoria que apunta a un segmento de la misma
-de un tipo en particular.
-
-Entonces al realizar:
+de un tipo en particular. Entonces al realizar:
 
  int * v;
 
-¿A donde apunta v?, si ya se dijo que v es entero que apunta a un segmento de memoria, pero 
-¿a que segmento?, realmente no se sabe, y tampoco puedes hacer uso de le mismo.
-
+¿A d\onde apunta v?, si ya se dijo que v es entero que apunta a un segmento de memoria, pero 
+¿a qu\e segmento?, realmente no se sabe, y tampoco puedes hacer uso de le mismo.
 
 Al definir v como dirección de memoria (puntero), ¿Como se le asigna un valor a lo que apunta?
 para esto se usa `*VARIABLE`:
@@ -36,7 +34,7 @@ para esto se usa `*VARIABLE`:
 
 con el `*` se accesa directamente al segmento de memoria al que se apunta.
 
-¿Que sucede si se intenta hacer lo siguiente?
+###¿Que sucede si se intenta hacer lo siguiente?
 
    int * p1;
    *p1 = 1;
@@ -48,14 +46,14 @@ Sin duda compila sin ningún problema, ¿entonces esta bien?... veamos...
   *p1 = 1;   // el segmento al que apunta ahora se le asigna 1 como valor
   printf("%d", *p1); // imprime el entero al que se apunta.
 
-pero, ¿a que memoria se esta asignando?, nunca se definió entonces ¿por que compilo?
+Pero, ¿a que memoria se esta asignando?, nunca se definió entonces ¿por que compilo?
 y ¿como se arregla?, compilo por que `p1` tiene una dirección de memoria pueden comprobarlo
 haciendo:
 
   int * p1;  
   printf("%p", p1);
 
-verán su valor en hexadecimal
+verán su valor en hexadecimal.
 
 El problema es que nuestro programa no tiene permiso a escribir a ese segmento de memoria, entonces
 al hacer: *p1 = 1, recibimos un error de segmentación "segmentation fault" y nuestro programa
@@ -65,29 +63,31 @@ Esto se soluciona reservando la memoria que luego se va a utilizar, para esto se
 definido en "stdlib.h", de su man...
 
    void *malloc(size_t size);
-        aloja size bytes y regresa un puntero a la memoria alojada. La memoria no es limpiada. Si size es 0, entonces malloc() regresa NULL
-        o un puntero único que luego puede ser usado en free().
-   
-mas información `man malloc`.
+
+aloja _size_ _bytes_ y regresa un puntero a la memoria alojada. La memoria no 
+es limpiada. Si size es 0, entonces malloc() regresa NULL o un puntero único 
+que luego puede ser usado en free(). M\as información `man malloc`.
 
 Arreglando:
 
-   int * p1 = malloc(sizeof(int)); // p1 es un puntero a un segmento de memoria que apunta a un entero
+   int * p1 = malloc(sizeof(int)); // p1 es un puntero a un segmento de memoria 
+	                                 //que apunta a un entero
    *p1 = 1;   // el segmento al que apunta ahora se le asigna 1 como valor
    printf("%d", *p1); // imprime el entero al que se apunta
 
 
-¿Entonces toda variable tiene puntero?
+###¿Entonces toda variable tiene puntero?
 
 Por su puesto, toda variable tiene una dirección, y entonces ¿como saberla?...
 
-
-Existe un operador llamado de dirección  `&`, un uso mas para el amperson (&& "and logico", & "bitwise and")
-se usa así:
+Existe un operador llamado de dirección  `&`, un uso mas para el [et] (&& "and logico", & "bitwise and")
+se usa:
 
     &variable
 
-es un operador de derecha, por lo tannto  nunca veran
+[et]: http://es.wikipedia.org/wiki/%26
+
+es un operador de derecha, por lo tanto nunca veran
 
     &variable = 0x341424;
     
@@ -105,12 +105,10 @@ lo que ahora abre la posibilidad a hacer lo siguiente:
     printf("v = x = %d", *x); 
     printf("%p == %p\n", x, &v); // imprime la dirección usada
 
-
 Modificar a v sin siquiera usar a v directamente solamente su dirección
 que luego se modifica con un puntero secundario x al que como verán no se
 inicializo con malloc, ya que no se va a usar la dirección original, si no la de v,
 donde v es una variable que la inicializo automáticamente al definirla como entero.
-
 
 Hasta aquí por el momento, aun faltan 4 secciones mas por definir:
 
@@ -121,4 +119,4 @@ Hasta aquí por el momento, aun faltan 4 secciones mas por definir:
 
 Espero terminar de redactarlas esta semana.
 
--- Joel Rivera 	`joe`
+-- Joel _"joe"_ Rivera
