@@ -15,14 +15,14 @@ Es la dirección en memoria de un segmento en particular de la misma.
 
 ###¿Como se define un puntero?
 
-   TIPO * variable;
+    TIPO * variable;
 
 Lo que se realiza, en una asignación de un numero entero normalmente
 expresado en forma hexadecimal, la diferencia de este entero es que ya se
 tiene noción de ser una dirección en memoria que apunta a un segmento de la misma
 de un tipo en particular. Entonces al realizar:
 
- int * v;
+    int * v;
 
 ¿A d\onde apunta v?, si ya se dijo que v es entero que apunta a un segmento de memoria, pero 
 ¿a qu\e segmento?, realmente no se sabe, y tampoco puedes hacer uso de le mismo.
@@ -30,28 +30,28 @@ de un tipo en particular. Entonces al realizar:
 Al definir v como dirección de memoria (puntero), ¿Como se le asigna un valor a lo que apunta?
 para esto se usa `*VARIABLE`:
 
-  *v  = 1;
+	  *v  = 1;
 
 con el `*` se accesa directamente al segmento de memoria al que se apunta.
 
 ###¿Que sucede si se intenta hacer lo siguiente?
 
-   int * p1;
-   *p1 = 1;
-   printf("%d", *p1);
+     int * p1;
+     *p1 = 1;
+     printf("%d", *p1);
 
 Sin duda compila sin ningún problema, ¿entonces esta bien?... veamos...
 
-  int * p1;  // p1 es un puntero a un segmento de memoria que apunta a un entero
-  *p1 = 1;   // el segmento al que apunta ahora se le asigna 1 como valor
-  printf("%d", *p1); // imprime el entero al que se apunta.
+    int * p1;  // p1 es un puntero a un segmento de memoria que apunta a un entero
+    *p1 = 1;   // el segmento al que apunta ahora se le asigna 1 como valor
+    printf("%d", *p1); // imprime el entero al que se apunta.
 
 Pero, ¿a que memoria se esta asignando?, nunca se definió entonces ¿por que compilo?
 y ¿como se arregla?, compilo por que `p1` tiene una dirección de memoria pueden comprobarlo
 haciendo:
 
-  int * p1;  
-  printf("%p", p1);
+    int * p1;  
+    printf("%p", p1);
 
 verán su valor en hexadecimal.
 
@@ -62,7 +62,7 @@ termina.
 Esto se soluciona reservando la memoria que luego se va a utilizar, para esto se usa `malloc`,
 definido en "stdlib.h", de su man...
 
-   void *malloc(size_t size);
+    void *malloc(size_t size);
 
 aloja _size_ _bytes_ y regresa un puntero a la memoria alojada. La memoria no 
 es limpiada. Si size es 0, entonces malloc() regresa NULL o un puntero único 
@@ -70,10 +70,10 @@ que luego puede ser usado en free(). M\as información `man malloc`.
 
 Arreglando:
 
-   int * p1 = malloc(sizeof(int)); // p1 es un puntero a un segmento de memoria 
+    int * p1 = malloc(sizeof(int)); // p1 es un puntero a un segmento de memoria 
 	                                 //que apunta a un entero
-   *p1 = 1;   // el segmento al que apunta ahora se le asigna 1 como valor
-   printf("%d", *p1); // imprime el entero al que se apunta
+    *p1 = 1;   // el segmento al que apunta ahora se le asigna 1 como valor
+    printf("%d", *p1); // imprime el entero al que se apunta
 
 
 ###¿Entonces toda variable tiene puntero?
@@ -83,7 +83,7 @@ Por su puesto, toda variable tiene una dirección, y entonces ¿como saberla?...
 Existe un operador llamado de dirección  `&`, un uso mas para el [et] (&& "and logico", & "bitwise and")
 se usa:
 
-    &variable
+     &variable
 
 [et]: http://es.wikipedia.org/wiki/%26
 
