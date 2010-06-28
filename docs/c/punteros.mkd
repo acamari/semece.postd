@@ -2,22 +2,22 @@
 
 Motivado por una respuesta de uno de los maestros de la [FCFM][] al momento de preguntarle
 "¿Maestro, cu\ando vamos a ver punteros?"  y recibir su respuesta de
-*"de punteros tu solo vas a saber el nombre"*,
+*"de punteros tú sólo vas a saber el nombre"*,
 trato de explicar un concepto tan fundamental en [C][], y tan poco o nulamente sabido por los 
 estudiantes que dicen saber programar en [C][] por usar arreglos para manejar
 sus cadenas y los ejemplos de juguete, sin siquiera considerar los manejos
 de memoria dinámica vía punteros, comencemos...
 
-[FCFM]: http://www.fcfm.uanl.mx/ "Facultad de Ciencias Fisico Matematicas"
+[FCFM]: http://www.fcfm.uanl.mx/ "Facultad de Ciencias F\isico Matem\aticas"
 [C]: http://es.wikipedia.org/wiki/Lenguaje_de_programación_C "Lenguage de programación C"
 
 ## Nociones básicas
 
-###¿Que es un puntero?
+###¿Qu\e es un puntero?
 
 Es la dirección en memoria de un segmento en particular de la misma.
 
-###¿Como se define un puntero?
+###¿C\omo se define un puntero?
 
     TIPO * variable;
 
@@ -28,31 +28,31 @@ de un tipo en particular. Entonces al realizar:
 
     int * v;
 
-¿A donde apunta v?, si ya se dijo que v es entero que apunta a un segmento de memoria, pero 
-¿a que segmento?, realmente no se sabe, y tampoco puedes hacer uso de le mismo.
+¿A d\onde apunta v?, si ya se dijo que v es entero que apunta a un segmento de memoria, pero 
+¿cu\al segmento?, realmente no se sabe, y tampoco puedes hacer uso de el mismo.
 
-Al definir v como dirección de memoria (puntero), ¿Como se le asigna un valor a lo que apunta?
-para esto se usa `*VARIABLE`:
+Al definir v como dirección de memoria (puntero), ¿c\omo se le asigna un valor a
+lo que apunta?, para esto se usa `*VARIABLE`:
 
 	  *v  = 1;
 
 con el __*__ se accesa directamente al segmento de memoria al que se apunta.
 
-###¿Que sucede si se intenta hacer lo siguiente?
+###¿Qu\e sucede si se intenta hacer lo siguiente?
 
      int * p1;
      *p1 = 1;
      printf("%d", *p1);
 
-Sin duda compila sin ningún problema, ¿entonces esta bien?... veamos...
+Sin duda compila sin ningún problema, ¿entonces est\a bien?; veamos...
 
     int * p1;  // p1 es un puntero a un segmento de memoria que apunta a un entero
     *p1 = 1;   // el segmento al que apunta ahora se le asigna 1 como valor
     printf("%d", *p1); // imprime el entero al que se apunta.
 
-Pero, ¿a que memoria se esta asignando?, nunca se definió entonces ¿por que compilo?
-y ¿como se arregla?, compilo por que `p1` tiene una dirección de memoria pueden comprobarlo
-haciendo:
+Pero, ¿cu\al memoria se est\a asignando?, nunca se definió. Entonces, ¿por qu\e
+compil\o?, y ¿c\omo se arregla?, compil\o por que `p1` tiene una dirección de
+memoria pueden comprobarlo haciendo:
 
     int * p1;  
     printf("%p", p1);
@@ -84,20 +84,20 @@ Arreglando:
 
 ###¿Entonces toda variable tiene puntero?
 
-Por su puesto, toda variable tiene una dirección, y entonces ¿como saberla?...
+Por su puesto, toda variable tiene una dirección, y entonces, ¿c\omo saberla?...
 
-Existe un operador llamado de dirección  __&__, un uso mas para el [et] (&& "and logico", & "bitwise and")
+Existe un operador llamado de dirección  __&__, un uso m\as para el [et] (&& "and logico", & "bitwise and")
 se usa:
 
      &variable
 
 [et]: http://es.wikipedia.org/wiki/%26
 
-es un operador de derecha, por lo tanto nunca veran
+es un operador de derecha, por lo tanto nunca ver\an
 
     &variable = 0x341424;
     
-es así como se puede hacer lo siguiente:   
+es así como se puede hacer lo siguiente:
 
     int v = 1000;
     printf("La dirección de v es %p", &v);
@@ -114,9 +114,9 @@ lo que ahora abre la posibilidad a hacer lo siguiente:
 Modificar a __v__ sin siquiera usar a __v__ directamente, solamente su dirección,
 que luego se modifica con un puntero secundario __x__ al que como verán no se
 inicializo con [malloc][], ya que no se va a usar la dirección original, si no la de __v__,
-donde __v__ es una variable que la inicializo automáticamente al definirla como entero.
+donde __v__ es una variable que la inicializ\o automáticamente al definirla como entero.
 
-Hasta aquí por el momento, aun faltan 4 secciones mas por definir:
+Hasta aquí por el momento, a\un faltan 4 secciones m\as por definir:
 
   * Aritmética de punteros
   * Cadenas
