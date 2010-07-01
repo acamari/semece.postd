@@ -64,7 +64,8 @@ que el servidor *P* abra un puerto arbitrario y escuche en él desde cualquiera
 de sus IPs [distinta de la [loopback][], o séa: que escuche en Internet]); para
 esto hacemos:
 
-	perl -i -lpe 's!^#+!!, s!no!yes! if /GatewayPorts\ no/i' /etc/ssh/sshd_config;
+	perl -i -lpe 's!^#+!!, s!no!yes! if /GatewayPorts\ no/i' \
+		/etc/ssh/sshd_config; 
 
 Que reemplaza la línea '#GatewayPorts no' por 'GatewayPorts yes' en ese archivo.
 (Nota: eso se debe de correr como [root][]. Nota: nunca corra scripts que se
