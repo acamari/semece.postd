@@ -42,23 +42,23 @@ de estar corriendo un servidor ssh (en *B* no es necesario).
 
 ## Fondo.
 
-Resulta que [ssh][manssh] tiene una opción muy interesante que es la '-R', que
+Resulta que [ssh][manssh] tiene una opción muy interesante que es la `-R`, que
 quiere decir *reverse* (reverso, inverso), cuya descripción sigue así (visto
 desde *A*):
 
 	-R [bind_address:]port:host:hostport
 
-Donde *bind_address* (dirección de enlace) es la dirección en *P* en la que se
-*escuchará*; *port* (puerto) es un puerto que se reservará en *P*; *host*
+Donde `bind_address` (dirección de enlace) es la dirección en *P* en la que se
+*escuchará*; `port` (puerto) es un puerto que se reservará en *P*; `host`
 (servidor) es una dirección IP a la que se enviará tráfico _desde A_ y
-*hostport* (puerto del servidor) es un puerto TCP en la dirección IP *host* a la
+`hostport` (puerto del servidor) es un puerto TCP en la dirección IP *host* a la
 que se enviará el tráfico _desde A_.
 
 ## Operación.
 
 ### Primero, 
 
-habilitamos la opción *GatewayPorts* en */etc/ssh/sshd_config* en el
+habilitamos la opción `GatewayPorts` en `/etc/ssh/sshd_config` en el
 servidor *P* (que permite todo el futbolito que es un túnel ssh inverso: permite
 que el servidor *P* abra un puerto arbitrario y escuche en él desde cualquiera
 de sus IPs [distinta de la [loopback][], o séa: que escuche en Internet]); para
@@ -67,7 +67,7 @@ esto hacemos:
 	perl -i -lpe 's!^#+!!, s!no!yes! if /GatewayPorts\ no/i' \
 		/etc/ssh/sshd_config; 
 
-Que reemplaza la línea '#GatewayPorts no' por 'GatewayPorts yes' en ese archivo.
+Que reemplaza la línea '`#GatewayPorts no`' por '`GatewayPorts yes`' en ese archivo.
 (Nota: eso se debe de correr como [root][]. Nota: nunca corra scripts que se
  encuentre tirados en Internet sin previa evaluación [como éste]).
 
