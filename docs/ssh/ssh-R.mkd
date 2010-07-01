@@ -105,7 +105,7 @@ documentos del IETF respectivos (RFCs).
 
 ### Tercero, 
 
-una vez terminado el paso primero, no queda más que ejecutar desde la
+una vez terminado el paso segundo, no queda más que ejecutar desde la
 máquina *B*:
 
 	ssh -p 32022 root@P;
