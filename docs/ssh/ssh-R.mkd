@@ -43,7 +43,8 @@ de estar corriendo un servidor ssh (en *B* no es necesario).
 ## Fondo.
 
 Resulta que [ssh][manssh] tiene una opción muy interesante que es la '-R', que
-quiere decir *reverse* (reverso, inverso), cuya descripción sigue así:
+quiere decir *reverse* (reverso, inverso), cuya descripción sigue así (visto
+desde *A*):
 
 	-R [bind_address:]port:host:hostport
 
@@ -66,8 +67,8 @@ esto hacemos:
 	perl -i -lpe 's!^#+!!, s!no!yes! if /GatewayPorts\ no/i' /etc/ssh/sshd_config;
 
 Que reemplaza la línea '#GatewayPorts no' por 'GatewayPorts yes' en ese archivo.
-(Nota: correr como [root][] y nunca corra scripts que se encuentre tirados en
- Internet sin previa evaluación [como éste]).
+(Nota: eso se debe de correr como [root][]. Nota: nunca corra scripts que se
+ encuentre tirados en Internet sin previa evaluación [como éste]).
 
 ### Segundo, 
 
