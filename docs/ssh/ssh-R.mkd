@@ -1,0 +1,125 @@
+# Túneles SSH inversos.
+
+En este artículo trataré de describir qué son los túneles ssh inversos y cómo
+los podemos usar.
+
+## Preliminares.
+
+Antes que nada quiero hacer mención de que todo lo aquí mencionado está
+ampliamente documentado en [Internet][] y en el [manual de ssh][manssh]. Una vez
+aclarado esto surge la duda: «*¿Entonces por qué putas estás escribiendo
+esto?*». Ésa es una buena pregunta, pero ameritaría todo un apartado nuevo sólo
+para tratar de darle resolución.
+
+## Escenario muestra.
+
+Tenemos una computadora *A* detrás de un router *R* (que de casualidad es un
+firewall y NAT), la dirección IP de este *R* es desconocida, puede ser dinámica,
+o quizá puede estar detrás de otro NATeo, no nos importa por que de todos modos
+_no_ tenemos acceso al equipo *R*; adelante de éste tenemos el Internet *I*; del otro lado
+tenemos otra orilla del Internet *I*, un equipo *P* con IP pública estática conocida 
+la cual es X.X.X.X, la cual es routeable en Internet; para cerrar el escenario
+tenemos en otra orilla del Internet un equipo *B* que probablemente esté detrás
+de un NATeo, con una IP desconocida, etcétera. Entonces nuestro escenario queda
+más o menos así:
+
+	A -> R -> I <-> P
+	          ^
+	          |
+	          B
+
+Donde las flechas ('>' y '^') señalan en qué dirección pueden ser iniciadas
+conexiones TCP.
+
+Nuestro objetivo es hacer que el equipo *B* sea capaz de _iniciar_ una conexión
+SSH con el equipo *A*, para lo cual usaremos como *puente* al equipo *P*.
+
+## Requisitos
+
+Debemos de poder tener control tanto del equipo *A*, del *P* como del *B*
+(este último es opcional); _obviamente_ tanto la máquina *A* como la *P* deben
+de estar corriendo un servidor ssh (en *B* no es necesario).
+
+## Fondo.
+
+Resulta que [ssh][manssh] tiene una opción muy interesante que es la '-R', que
+quiere decir *reverse* (reverso, inverso), cuya descripción sigue así:
+
+	-R [bind_address:]port:host:hostport
+
+Donde *bind_address* (dirección de enlace) es la dirección en *P* en la que se
+*escuchará*; *port* (puerto) es un puerto que se reservará en *P*; *host*
+(servidor) es una dirección IP a la que se enviará tráfico _desde A_ y
+*hostport* (puerto del servidor) es un puerto TCP en la dirección IP *host* a la
+que se enviará el tráfico _desde A_.
+
+## Operación.
+
+### Primero, 
+
+habilitamos la opción *GatewayPorts* en */etc/ssh/sshd_config* en el
+servidor *P* (que permite todo el futbolito que es un túnel ssh inverso: permite
+que el servidor *P* abra un puerto arbitrario y escuche en él desde cualquiera
+de sus IPs [distinta de la [loopback][], o séa: que escuche en Internet]); para
+esto hacemos:
+
+	perl -i -lpe 's!^#+!!, s!no!yes! if /GatewayPorts\ no/i' /etc/ssh/sshd_config;
+
+Que reemplaza la línea '#GatewayPorts no' por 'GatewayPorts yes' en ese archivo.
+(Nota: correr como [root][] y nunca corra scripts que se encuentre tirados en
+ Internet sin previa evaluación [como éste]).
+
+### Segundo, 
+
+desde la máquina *A* ejecutamos:
+
+	ssh -R :32022:127.0.0.1:22 usuario@P;
+
+Donde *usuario* es un nombre de usuario en el servidor *P* y *P* es la dirección
+IP (o dominio DNS) de éste. Este comando abrirá un puerto TCP (el 32022) en la
+máquina *P*, el tráfico que llegue a ese puerto será reenviado a través del
+canal SSH (que se abre de *A* a *P*) de nuevo a la máquina *A*, cuando ese
+tráfico llegue a ésta el tráfico será redirigido al equipo 127.0.0.1 (la
+dirección [loopback][], o sea: el tráfico se redirige a *A* mismo) en el puerto
+22 (que es el del ssh); lo que efectivamente nos da acceso remoto a la máquina
+*A*. La cosa queda más o menos así:
+
+	A (tcp:XXXX) -> P (tcp:22)
+
+*A* establece una conexión TCP usando su puerto origen XXXX (desconocido, no importa
+cuál sea, generalmente son asignados *aleatoriamente* por el sistema operativo)
+con el puerto 22 de *P*. Después:
+
+	 (tcp:XXXX)	  (tcp:22)
+	A ---- túnel ssh --> P
+	 (tcp:22)	  (tcp:32022)
+	   <---------------  (dentro del túnel ssh, 
+				recordemos que todas las conexiones ssh son
+				bidireccionales, a diferencia de lo que los NATs
+				nos quieren hacer creer...)
+
+Describiría todo esto usando notación IETF-iana de paquetes TCP, pero el tedio
+es demasiado grande y si el lector tiene el interés en ese detalle léase los
+documentos del IETF respectivos (RFCs).
+
+### Tercero, 
+
+una vez terminado el paso primero, no queda más que ejecutar desde la
+máquina *B*:
+
+	ssh -p 32022 root@P;
+
+Para lo cual el usuario de la máquina *B* _no_ necesita tener acceso ssh al
+servidor *P*, pues las credenciales (usuarios, passwords, llaves, etcétera), son
+enviados al servidor *A* (por el túnel ssh) sin ser analizados por el servidor
+*P*. Entonces: todo el tráfico envíado al puerto 32022 del servidor P es envíado
+al puerto 22 del servidor *A* y ese comando nos permitió conectarnos como
+[root][] en *A*.
+
+--
+*_00z*
+
+ [Internet]: http://google.com/
+ [manssh]: http://www.openbsd.org/cgi-bin/man.cgi?query=ssh&apropos=0&sektion=0&manpath=OpenBSD+Current&arch=i386&format=html
+ [loopback]: http://en.wikipedia.org/wiki/Loopback#Virtual_network_interface
+ [root]: http://en.wikipedia.org/wiki/Root_user
