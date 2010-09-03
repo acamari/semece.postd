@@ -14,3 +14,4 @@
 * -- Donde radius es radius y fiu es fiu -- joe_21 
 * -- Dejo los acentos como ejercicio al lector -- Leon9
 * -- ¡Me opongo a tu unanimidad! -- alimon
+* -- ¿Cómo cuántos códigos necesitas para hacer un juego? -- Javier Plata R.
