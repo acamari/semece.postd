@@ -6,6 +6,10 @@ Siéntase en libertad de apreciar lo que guste.
 * León:
 	* [Mago][]
 	* [Cocodrilo][]
+	* [Portafolio][]
+	* [Awesome Croc][]
 
 [Mago]: $%/galeria/leon/wizard.png 
 [Cocodrilo]: $%/galeria/leon/s_croc.png 
+[Portafolio]: $%/galeria/leon/mejor_portafolio.png 
+[Awesome Croc]: $%/galeria/leon/croc.png 
