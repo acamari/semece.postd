@@ -1,0 +1,9 @@
+## Galería
+
+Aquí *SeNTX* pone a su disposición sus más recientes arrebatos creativos.
+Siéntase en libertad de apreciar lo que guste.
+
+* León:
+	* [Mago][]
+
+[Mago]: $%/galeria/leon/wizard.png 
