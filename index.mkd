@@ -10,6 +10,6 @@
 * 20100410: ¡Nueva web, todos alégrense!
 * 20090907: Se reescribió esta página en [Markdown][].
 
-	[galeria]: $%/galeria/	
-	[git]: http://git.sentx.net/
-	[Markdown]: http://daringfireball.net/projects/markdown/
+  [galeria]: $%/galeria/	
+  [git]: http://git.sentx.net/
+  [Markdown]: http://daringfireball.net/projects/markdown/
