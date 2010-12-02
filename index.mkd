@@ -2,6 +2,7 @@
 
 ## Noticias:
 
+* 20101201: Nueva sección de [galeria][galería].
 * 20100621: Tenemos tipos MIME, disfrútelos.
 * 20100526: Automatización de la dada de alta de repositorios en 
 	[git.sentx.net][git]
@@ -9,5 +10,6 @@
 * 20100410: ¡Nueva web, todos alégrense!
 * 20090907: Se reescribió esta página en [Markdown][].
 
-  [git]: http://git.sentx.net/
-  [Markdown]: http://daringfireball.net/projects/markdown/
+	[galeria]: $%/galeria/	
+	[git]: http://git.sentx.net/
+	[Markdown]: http://daringfireball.net/projects/markdown/
