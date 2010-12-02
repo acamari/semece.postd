@@ -2,7 +2,7 @@
 
 ## Noticias:
 
-* 20101201: Nueva sección de [galeria][galería].
+* 20101201: Nueva sección de [galería][galeria].
 * 20100621: Tenemos tipos MIME, disfrútelos.
 * 20100526: Automatización de la dada de alta de repositorios en 
 	[git.sentx.net][git]
