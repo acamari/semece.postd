@@ -5,5 +5,7 @@ Siéntase en libertad de apreciar lo que guste.
 
 * León:
 	* [Mago][]
+	* [Cocodrilo][]
 
 [Mago]: $%/galeria/leon/wizard.png 
+[Cocodrilo]: $%/galeria/leon/s_croc.png 
