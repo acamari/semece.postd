@@ -3,11 +3,16 @@
 Aquí *SeNTX* pone a su disposición sus más recientes arrebatos creativos.
 Siéntase en libertad de apreciar hasta donde pueda.
 
+* Vyciouz: 
+	* [Retrato de Leon][].
+
+[Retrato de Leon]: $%/galeria/vyciouz/leon.jpg
+
 * León:
-	* [Mago][]
-	* [Cocodrilo][]
-	* [Portafolio][]
-	* [Awesome Croc][]
+	* [Mago][].
+	* [Cocodrilo][].
+	* [Portafolio][].
+	* [Awesome Croc][].
 
 [Mago]: $%/galeria/leon/wizard.png 
 [Cocodrilo]: $%/galeria/leon/s_croc.png 
