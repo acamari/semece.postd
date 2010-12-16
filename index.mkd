@@ -2,6 +2,7 @@
 
 ## Noticias:
 
+* 20101215: Se actualiza [contacto][]:
 * 20101201: Nueva sección de [galería][galeria].
 * 20100621: Tenemos tipos MIME, disfrútelos.
 * 20100526: Automatización de la dada de alta de repositorios en 
@@ -10,6 +11,7 @@
 * 20100410: ¡Nueva web, todos alégrense!
 * 20090907: Se reescribió esta página en [Markdown][].
 
+  [contacto]: $%/contacto/	
   [galeria]: $%/galeria/	
   [git]: http://git.sentx.net/
   [Markdown]: http://daringfireball.net/projects/markdown/
