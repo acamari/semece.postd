@@ -25,6 +25,8 @@ _SeNTX_ en su altruista afán pone a su disposición la siguiente:
 	* [Linux][].
 * Bases de datos:
 	* [PostgreSQL][].
+* Comunicaciones seguras:
+	* [PGP & GPG: Email for the Practical Paranoid][PGP]
 * Programación:
 	* [Programación en BASH][bash], cuando termine de leer éste olvide todas
 	las cualidades específicas de GNU bash (y no-POSIX) y lea el siguiente
@@ -59,6 +61,7 @@ entonces seguir los enlaces dispuestos.
  [bash]: http://www.gnu.org/software/bash/manual/bashref.html
  [sh]: http://www.openbsd.org/cgi-bin/man.cgi?query=sh&apropos=0&sektion=0&manpath=OpenBSD+Current&arch=i386&format=html
  [PostgreSQL]: http://www.postgres.org/
+ [PGP]: http://www.flazx.us/books/2830-PGP-GPG-Email-for-the-Practical-Paranoid
  [OpenBSD]:  http://www.openbsd.org
  [Linux]: http://google.com/search?q=linux
 
