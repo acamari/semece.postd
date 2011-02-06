@@ -37,6 +37,7 @@ _SeNTX_ en su altruista afán pone a su disposición la siguiente:
 		* [Programming Perl][Perl-programming].
 		* [Practical mod_perl][Perl-modperl].
 	* [El lenguaje de programación C][C].
+	* [Javascript][].
 	* [Python][].
 	* [Encodings][].
 * Documentación:
@@ -71,6 +72,7 @@ entonces seguir los enlaces dispuestos.
  [Perl-modperl]: http://www.modperlbook.org/
  [C]: http://cm.bell-labs.com/cm/cs/cbook/ 
  [Encodings]: http://www.joelonsoftware.com/articles/Unicode.html
+ [Javascript]: http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?ie=UTF8&qid=1296975425&sr=8-1
  [Python]: http://www.python.org/
  [Ruby]: http://www.ruby-lang.org/
 
