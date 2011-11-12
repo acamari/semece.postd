@@ -15,17 +15,16 @@ _SeNTX_ en su altruista afán pone a su disposición la siguiente:
 		* [IPsec][].
 	* Capa 5: 
 		* [DNS][prodns].
-		* [HTTP][].
+		* HTTP.
 * Web:
-	* [HTML][] y [CSS][].
-	* [Javascript][].
-	* [JSON][].
+	* HTML.
+	* Javascript.
+	* JSON.
 * Sistemas Operativos: 
 	* [OpenBSD][].
 	* [Linux][].
 * Bases de datos:
 	* [PostgreSQL][].
-	* [CouchDB][].
 * Comunicaciones seguras:
 	* [PGP & GPG: Email for the Practical Paranoid][PGP]
 * Programación:
@@ -33,7 +32,6 @@ _SeNTX_ en su altruista afán pone a su disposición la siguiente:
 	las cualidades específicas de GNU bash (y no-POSIX) y lea el siguiente
 	documento *Programación de shell portable*.
 	* [Programación de shell portable][sh], 
-	* El [SICP][].
 	* [Perl][]:
 		* [Learning Perl][Perl-learning].
 		* [Programming Perl][Perl-programming].
@@ -41,7 +39,6 @@ _SeNTX_ en su altruista afán pone a su disposición la siguiente:
 	* [El lenguaje de programación C][C].
 	* [Javascript][].
 	* [Python][].
-	* [Git][].
 	* [Encodings][].
 * Documentación:
 	* [LaTeX][].
@@ -62,34 +59,26 @@ entonces seguir los enlaces dispuestos.
  [IPtables]: http://iptables-tutorial.frozentux.net/iptables-tutorial.html#TCPIPREPETITION
  [prodns]: http://apress.com/book/view/9781590594940
 
- [HTML]: http://www.html5rocks.com/en/
- [CSS]: http://www.w3.org/Style/CSS/learning
- [HTTP]: http://www.w3.org/Protocols/rfc2616/rfc2616.html 
- [Javascript]: http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?ie=UTF8&qid=1296975425&sr=8-1
- [JSON]: http://json.org/
-
  [bash]: http://www.gnu.org/software/bash/manual/bashref.html
  [sh]: http://www.openbsd.org/cgi-bin/man.cgi?query=sh&apropos=0&sektion=0&manpath=OpenBSD+Current&arch=i386&format=html
  [PostgreSQL]: http://www.postgres.org/
- [CouchDB]: http://guide.couchdb.org/
  [PGP]: http://www.flazx.us/books/2830-PGP-GPG-Email-for-the-Practical-Paranoid
  [OpenBSD]:  http://www.openbsd.org
  [Linux]: http://google.com/search?q=linux
 
- [SICP]: http://mitpress.mit.edu/sicp/full-text/book/book.html
  [Perl]: http://learn.perl.org/
  [Perl-learning]: http://oreilly.com/catalog/9780596520113
  [Perl-programming]: http://oreilly.com/catalog/9780596000271/
  [Perl-modperl]: http://www.modperlbook.org/
  [C]: http://cm.bell-labs.com/cm/cs/cbook/ 
- [Git]: http://progit.org/book/
  [Encodings]: http://www.joelonsoftware.com/articles/Unicode.html
+ [Javascript]: http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742/ref=sr_1_1?ie=UTF8&qid=1296975425&sr=8-1
  [Python]: http://www.python.org/
  [Ruby]: http://www.ruby-lang.org/
 
  [LaTeX]: http://es.wikipedia.org/wiki/LaTeX
  [RAE]: http://rae.es/
  [Ortografía]: http://www.rae.es/rae/gestores/gespub000015.nsf/(voanexos)/arch7E8694F9D6446133C12571640039A189/$FILE/Ortografia.pdf
- [acentos]: http://www.dat.etsit.upm.es/~mmonjas/acentos.html
+ [acentos]: http://www.dat.etsit.upm.es/~mmonjas/acentos.html"
 
  [Wikipedia]: http://en.wikipedia.org/
