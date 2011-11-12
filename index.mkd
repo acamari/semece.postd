@@ -15,4 +15,3 @@
   [galeria]: $%/galeria/	
   [git]: http://git.sentx.net/
   [Markdown]: http://daringfireball.net/projects/markdown/
-
