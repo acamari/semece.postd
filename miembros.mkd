@@ -1,6 +1,6 @@
 ## Miembros
 
-* Rafael «leon9» Díaz de León Plata
+* Rafael «[leon9][]» Díaz de León Plata
 * Eric «eriiiiiic» Alberto Rodríguez Quintanilla
 * Edú «kamon» Mizael Martínez Rodríguez
 * Abel «_00z» Abraham Camarillo Ojeda
@@ -12,3 +12,5 @@
 * Pablo «Sanedrac» Arturo  Salas Cárdenas
 * Víctor «vyciouz» Manuel Mendoza Rocha
 * Erick «erick» Castillo de la Garza
+
+  [leon9]: http://elinter.net/
