@@ -27,7 +27,7 @@ _SeNTX_ en su altruista afán pone a su disposición la siguiente:
 	* [PostgreSQL][].
 	* [CouchDB][].
 * Comunicaciones seguras:
-	* [PGP & GPG: Email for the Practical Paranoid][PGP]
+	* [PGP & GPG: Email for the Practical Paranoid][PGP].
 * Programación:
 	* [Programación en BASH][bash], cuando termine de leer éste olvide todas
 	las cualidades específicas de GNU bash (y no-POSIX) y lea el siguiente
