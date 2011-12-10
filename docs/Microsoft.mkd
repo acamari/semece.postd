@@ -1,0 +1,5 @@
+## ¿Por qué Microsoft hace mierda?
+
+* [SQLS CONVERT][].
+
+ [SQLS CONVERT]: http://joseph.randomnetworks.com/2006/06/22/sql-server-convert/
