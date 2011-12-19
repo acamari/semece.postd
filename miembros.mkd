@@ -1,6 +1,6 @@
 ## Miembros
 
-* Rafael «[leon9][]» Díaz de León Plata
+* Rafael «[leon9][]» [Díaz de León][Leon_IX] Plata
 * Eric «eriiiiiic» Alberto Rodríguez Quintanilla
 * Edú «kamon» Mizael Martínez Rodríguez
 * Abel «_00z» Abraham Camarillo Ojeda
@@ -14,3 +14,4 @@
 * Erick «erick» Castillo de la Garza
 
   [leon9]: http://elinter.net/
+  [Leon_IX]: https://twitter.com/#!/Leon_IX
