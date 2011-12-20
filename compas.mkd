@@ -1,0 +1,11 @@
+## Esta es una lista de otros sitios web, los compas, el *blog* *roll*
+
+* [Hacker Garage][hg]: Hackerspace tapatío.
+* [GUL-UANL][guluanl]: Grupo de usuarios Linux de la Universidad Autónoma de Nuevo León. 
+* [GULMON][]: El prometido "mega-grupo" de Monterrey y su zona metropolitana.
+
+La verdad no tenemos tantos compas.
+
+  [hg]: http://hackergarage.mx/
+  [guluanl]: http://www.guluanl.org/
+  [GULMON]: http://gulmon.org/
